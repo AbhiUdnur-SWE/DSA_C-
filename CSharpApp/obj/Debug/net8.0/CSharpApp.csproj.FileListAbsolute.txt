@@ -1,0 +1,15 @@
+/workspaces/DSA_C-/CSharpApp/bin/Debug/net8.0/CSharpApp
+/workspaces/DSA_C-/CSharpApp/bin/Debug/net8.0/CSharpApp.deps.json
+/workspaces/DSA_C-/CSharpApp/bin/Debug/net8.0/CSharpApp.runtimeconfig.json
+/workspaces/DSA_C-/CSharpApp/bin/Debug/net8.0/CSharpApp.dll
+/workspaces/DSA_C-/CSharpApp/bin/Debug/net8.0/CSharpApp.pdb
+/workspaces/DSA_C-/CSharpApp/obj/Debug/net8.0/CSharpApp.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/DSA_C-/CSharpApp/obj/Debug/net8.0/CSharpApp.AssemblyInfoInputs.cache
+/workspaces/DSA_C-/CSharpApp/obj/Debug/net8.0/CSharpApp.AssemblyInfo.cs
+/workspaces/DSA_C-/CSharpApp/obj/Debug/net8.0/CSharpApp.csproj.CoreCompileInputs.cache
+/workspaces/DSA_C-/CSharpApp/obj/Debug/net8.0/CSharpApp.sourcelink.json
+/workspaces/DSA_C-/CSharpApp/obj/Debug/net8.0/CSharpApp.dll
+/workspaces/DSA_C-/CSharpApp/obj/Debug/net8.0/refint/CSharpApp.dll
+/workspaces/DSA_C-/CSharpApp/obj/Debug/net8.0/CSharpApp.pdb
+/workspaces/DSA_C-/CSharpApp/obj/Debug/net8.0/CSharpApp.genruntimeconfig.cache
+/workspaces/DSA_C-/CSharpApp/obj/Debug/net8.0/ref/CSharpApp.dll
