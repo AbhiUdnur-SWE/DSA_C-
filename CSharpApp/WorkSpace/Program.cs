@@ -3,6 +3,7 @@ using WorkSpace.MathsForDSA;
 using WorkSpace.LinkedList;
 using CSharpApp.WorkSpace.Queue;
 using WorkSpace.BinaryTree;
+using CSharpApp.WorkSpace.Stack;
 // using CSharpApp.WorkSpace.BinaryTree;
 namespace CSharpApp.WorkSpace
 {
@@ -125,15 +126,15 @@ namespace CSharpApp.WorkSpace
             // tree.Populate();
             // tree.Display();
 
-            BST bST = new();
+            // BST bST = new();
 
-            int[] ints = { 4, 5, 11, 22, 47, 1, 54, 2, 45, 100 };
-            // int[] ints = { 4, 5, 1, 2, 11 };
-            bST.Populate(ints);
-            bST.Display();
-            System.Console.WriteLine(bST.Balanced());
+            // int[] ints = { 4, 5, 11, 22, 47, 1, 54, 2, 45, 100 };
+            // // int[] ints = { 4, 5, 1, 2, 11 };
+            // bST.Populate(ints);
+            // bST.Display();
+            // System.Console.WriteLine(bST.Balanced());
 
-
+            //    System.Console.WriteLine(LargestHistogram.CalcLargestHistogram([2,1,5,6,2,3]));
         }
     }
 }

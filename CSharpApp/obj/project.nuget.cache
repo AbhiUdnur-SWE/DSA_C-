@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TtD/o9oga/w=",
+  "dgSpecHash": "gDU5ZVda0kg=",
   "success": true,
   "projectFilePath": "/workspaces/DSA_C-/CSharpApp/CSharpApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/9.0.11/microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.11/microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.netcore.app.host.linux-x64/9.0.11/microsoft.netcore.app.host.linux-x64.9.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

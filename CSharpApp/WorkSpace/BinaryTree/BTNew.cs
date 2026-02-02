@@ -1,6 +1,3 @@
-
-
-
 namespace WorkSpace.BinaryTree
 {
     public class BTNew
