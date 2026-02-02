@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-
 namespace CSharpApp.WorkSpace.Stack
 {
     public class LargestHistogram
