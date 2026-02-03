@@ -135,6 +135,8 @@ namespace CSharpApp.WorkSpace
             // System.Console.WriteLine(bST.Balanced());
 
             //    System.Console.WriteLine(LargestHistogram.CalcLargestHistogram([2,1,5,6,2,3]));
+
+           System.Console.WriteLine(GameOfTwoStacks.twoStacks(10, [4,2,4,6,1], [2,1,8,5])); 
         }
     }
 }
