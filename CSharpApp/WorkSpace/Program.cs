@@ -138,8 +138,32 @@ namespace CSharpApp.WorkSpace
 
             //    System.Console.WriteLine(GameOfTwoStacks.twoStacks(10, [4,2,4,6,1], [2,1,8,5])); 
 
-            System.Console.WriteLine(ValidParanthesis.IsValid("))"));
+            // System.Console.WriteLine(ValidParanthesis.IsValid("))"));
 
+            // LLHT lLHT1 = new LLHT();
+            // LLHT lLHT2 = new LLHT();
+
+            // lLHT1.InsertLast(1);
+            // lLHT1.InsertLast(2);
+            // lLHT1.InsertLast(4);
+
+            // lLHT2.InsertLast(1);
+            // lLHT2.InsertLast(3);
+            // lLHT2.InsertLast(4);
+
+            // lLHT1.DisplayLL();
+            // lLHT2.DisplayLL();
+
+            // LLHT.Node? a = MergerTwoLList.MergeTwoLL(lLHT1.Head!, lLHT2.Head!);
+
+            // while (a is not null)
+            // {
+            //     System.Console.Write($"{a.data} ");
+            //     a = a.next;
+            // }
+            // System.Console.WriteLine();
+
+            
         }
     }
 }

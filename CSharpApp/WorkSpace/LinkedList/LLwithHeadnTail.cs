@@ -5,8 +5,8 @@ namespace WorkSpace.LinkedList
 {
     public class LLHT
     {
-        private Node? Head;
-        private Node? Tail;
+        private Node? head;
+        private Node? tail;
         private int size;
 
         public LLHT()
@@ -16,15 +16,17 @@ namespace WorkSpace.LinkedList
 
         public int Size => size;
 
+        public Node? Head => head;
+
         public void InsertFirst(int data)
         {
             Node node = new Node(data);
-            node.next = Head;
-            Head = node;
+            node.next = head;
+            head = node;
 
-            if (Tail is null)
+            if (tail is null)
             {
-                Tail = Head;
+                tail = head;
             }
 
             size += 1;
@@ -32,15 +34,15 @@ namespace WorkSpace.LinkedList
 
         public void InsertLast(int data)
         {
-            if (Tail is null)
+            if (tail is null)
             {
                 InsertFirst(data);
                 return;
             }
 
             Node node = new(data);
-            Tail.next = node;
-            Tail = node;
+            tail.next = node;
+            tail = node;
 
             size += 1;
         }
@@ -60,7 +62,7 @@ namespace WorkSpace.LinkedList
                 return;
             }
 
-            Node? node = Head;
+            Node? node = head;
             for (int i = 1; i < index; i++)
             {
                 node = node?.next;
@@ -80,12 +82,12 @@ namespace WorkSpace.LinkedList
 
         public int? DelFirst()
         {
-            int? temp = Head?.data;
-            Head = Head?.next;
+            int? temp = head?.data;
+            head = head?.next;
 
-            if (Head is null)
+            if (head is null)
             {
-                Tail = null;
+                tail = null;
             }
 
             size -= 1;
@@ -99,7 +101,7 @@ namespace WorkSpace.LinkedList
 
         private Node? getNode(int index)
         {
-            var runner = Head;
+            var runner = head;
             for (int i = 0; i < index; i++)
             {
                 runner = runner?.next;
@@ -115,16 +117,16 @@ namespace WorkSpace.LinkedList
                 return DelFirst();
             }
 
-            var runner = Head;
+            var runner = head;
 
             runner = getNode(size - 2);
 
-            var delNode = Tail?.data;
-            Tail = runner;
+            var delNode = tail?.data;
+            tail = runner;
 
-            if (Tail != null)
+            if (tail != null)
             {
-                Tail.next = null;
+                tail.next = null;
             }
 
             size -= 1;
@@ -143,7 +145,7 @@ namespace WorkSpace.LinkedList
                 return DelLast();
             }
 
-            var prevNode = Head;
+            var prevNode = head;
             for (int i = 1; i < index; i++)
             {
                 prevNode = prevNode?.next;
@@ -164,7 +166,7 @@ namespace WorkSpace.LinkedList
 
         public void DisplayLL()
         {
-            Node? runner = Head;
+            Node? runner = head;
 
             if (runner is null)
             {
@@ -181,7 +183,7 @@ namespace WorkSpace.LinkedList
             Console.WriteLine();
         }
 
-        private class Node
+        public class Node
         {
             public Node? next;
             public int data;
