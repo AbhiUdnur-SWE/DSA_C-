@@ -125,45 +125,48 @@ namespace CSharpApp.WorkSpace
             // BTNew tree = new();
             // tree.Populate();
             // tree.Display();
-
             // BST bST = new();
-
             // int[] ints = { 4, 5, 11, 22, 47, 1, 54, 2, 45, 100 };
-            // // int[] ints = { 4, 5, 1, 2, 11 };
+            // int[] ints = { 4, 5, 1, 2, 11 };
             // bST.Populate(ints);
             // bST.Display();
             // System.Console.WriteLine(bST.Balanced());
-
-            //    System.Console.WriteLine(LargestHistogram.CalcLargestHistogram([2,1,5,6,2,3]));
-
-            //    System.Console.WriteLine(GameOfTwoStacks.twoStacks(10, [4,2,4,6,1], [2,1,8,5])); 
-
+            // System.Console.WriteLine(LargestHistogram.CalcLargestHistogram([2,1,5,6,2,3]));
+            // System.Console.WriteLine(GameOfTwoStacks.twoStacks(10, [4,2,4,6,1], [2,1,8,5])); 
             // System.Console.WriteLine(ValidParanthesis.IsValid("))"));
 
             // LLHT lLHT1 = new LLHT();
             // LLHT lLHT2 = new LLHT();
-
             // lLHT1.InsertLast(1);
             // lLHT1.InsertLast(2);
             // lLHT1.InsertLast(4);
-
             // lLHT2.InsertLast(1);
             // lLHT2.InsertLast(3);
             // lLHT2.InsertLast(4);
-
             // lLHT1.DisplayLL();
             // lLHT2.DisplayLL();
-
             // LLHT.Node? a = MergerTwoLList.MergeTwoLL(lLHT1.Head!, lLHT2.Head!);
+            // PrintLList(a);
 
-            // while (a is not null)
-            // {
-            //     System.Console.Write($"{a.data} ");
-            //     a = a.next;
-            // }
-            // System.Console.WriteLine();
+            // LLHT lLHT1 = new LLHT();
+            // lLHT1.InsertLast(1);
+            // lLHT1.InsertLast(1);
+            // lLHT1.InsertLast(2);
+            // lLHT1.InsertLast(3);
+            // lLHT1.InsertLast(3);
+            // var a = RemoveDupesFromLL.RemoveDupes(lLHT1.Head);
+            // PrintLList(a);
 
-            
         }
+
+        // private static void PrintLList(LLHT.Node head)
+        // {
+        //     while (head is not null)
+        //     {
+        //         System.Console.Write($"{head.data} ");
+        //         head = head.next;
+        //     }
+        //     System.Console.WriteLine();
+        // }
     }
 }
