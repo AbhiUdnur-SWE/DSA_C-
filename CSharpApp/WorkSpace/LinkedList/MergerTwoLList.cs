@@ -5,7 +5,7 @@ namespace WorkSpace.LinkedList
 {
     public static class MergerTwoLList
     {
-        public static LLHT.Node MergeTwoLL(Node node1, Node node2)
+        public static LLHT.Node? MergeTwoLL(Node? node1, Node? node2)
         {
             var dummyNode = new Node(-1);
 
@@ -26,12 +26,8 @@ namespace WorkSpace.LinkedList
 
                 temp = temp.next;
             }
-
             temp.next = node1 is not null ? node1 : node2;
-
             return dummyNode.next;
-
         }
     }
-
 }

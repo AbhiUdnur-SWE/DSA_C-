@@ -2,20 +2,23 @@ using Node = WorkSpace.LinkedList.LLHT.Node;
 
 namespace WorkSpace.LinkedList
 {
-    public static class RemoveDupesFromLL
+    public class RemoveAllOccrfromLL
     {
-        public static Node RemoveDupes(Node head)
+        public static Node Remove(Node head, int val)
         {
-            var temp = head;
+            var dummy = new Node(-1);
+            dummy.next = head;
+
+            var temp = dummy;
             while (temp.next is not null)
             {
-                if (temp.data == temp.next.data)
+                if (temp.next.data == val)
                     temp.next = temp.next.next;
                 else
                     temp = temp.next;
             }
-            return head;
+
+            return dummy.next;
         }
     }
-    
 }

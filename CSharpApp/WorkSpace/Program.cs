@@ -157,16 +157,24 @@ namespace CSharpApp.WorkSpace
             // var a = RemoveDupesFromLL.RemoveDupes(lLHT1.Head);
             // PrintLList(a);
 
+            // LLHT lLHT1 = new LLHT();
+            // lLHT1.InsertLast(1);
+            // lLHT1.InsertLast(1);
+            // lLHT1.InsertLast(2);
+            // lLHT1.InsertLast(3);
+            // lLHT1.InsertLast(3);
+            // var a = RemoveAllOccrfromLL.Remove(lLHT1.Head, 1);
+            // PrintLList(a);
         }
 
-        // private static void PrintLList(LLHT.Node head)
-        // {
-        //     while (head is not null)
-        //     {
-        //         System.Console.Write($"{head.data} ");
-        //         head = head.next;
-        //     }
-        //     System.Console.WriteLine();
-        // }
+        private static void PrintLList(LLHT.Node head)
+        {
+            while (head is not null)
+            {
+                System.Console.Write($"{head.data} ");
+                head = head.next;
+            }
+            System.Console.WriteLine();
+        }
     }
 }
