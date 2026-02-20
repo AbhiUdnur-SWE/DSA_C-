@@ -165,9 +165,27 @@ namespace CSharpApp.WorkSpace
             // lLHT1.InsertLast(3);
             // var a = RemoveAllOccrfromLL.Remove(lLHT1.Head, 1);
             // PrintLList(a);
+
+            // LLHT lLHT1 = new LLHT();
+            // lLHT1.InsertLast(1);
+            // lLHT1.InsertLast(2);
+            // lLHT1.InsertLast(3);
+            // lLHT1.InsertLast(4);
+            // lLHT1.InsertLast(5);
+            // var a = lLHT1.Head != null ? ReverseLL.Reverse(lLHT1.Head) : null;
+            // PrintLList(a);
+
+
+            // LLHT lLHT1 = new LLHT();
+            // lLHT1.InsertLast(1);
+            // lLHT1.InsertLast(1);
+            // lLHT1.InsertLast(0);
+            // lLHT1.InsertLast(1);
+            // lLHT1.InsertLast(0);
+            // System.Console.WriteLine(IsPallindromeLL.IsPallindrome(lLHT1.Head));
         }
 
-        private static void PrintLList(LLHT.Node head)
+        private static void PrintLList(LLHT.Node? head)
         {
             while (head is not null)
             {
