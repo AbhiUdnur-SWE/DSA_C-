@@ -183,16 +183,46 @@ namespace CSharpApp.WorkSpace
             // lLHT1.InsertLast(1);
             // lLHT1.InsertLast(0);
             // System.Console.WriteLine(IsPallindromeLL.IsPallindrome(lLHT1.Head));
+
+            TreeNode node = new(0);
+
+            TreeNode node1 = new(1);
+            TreeNode node2 = new(2);
+            TreeNode node3 = new(3);
+            TreeNode node4 = new(4);
+            TreeNode node5 = new(5);
+            TreeNode node6 = new(6);
+
+            node1.left = node3;
+            node1.right = node4;
+            
+            node2.left = node5;
+            node2.right = node6;
+
+            node.left = node1;
+            node.right = node2;
+
+            BinaryTree tree = new(node);
+            // tree.PreOrder();
+            // System.Console.WriteLine();
+            // tree.InOrder();
+            // System.Console.WriteLine();
+            // tree.PostOrder();
+            // System.Console.WriteLine();
+            // tree.LevelOrder();
+            // System.Console.WriteLine();
+
+            tree.LevelOrder(3);
         }
 
-        private static void PrintLList(LLHT.Node? head)
-        {
-            while (head is not null)
-            {
-                System.Console.Write($"{head.data} ");
-                head = head.next;
-            }
-            System.Console.WriteLine();
-        }
+        // private static void PrintLList(LLHT.Node? head)
+        // {
+        //     while (head is not null)
+        //     {
+        //         System.Console.Write($"{head.data} ");
+        //         head = head.next;
+        //     }
+        //     System.Console.WriteLine();
+        // }
     }
 }
